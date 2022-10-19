@@ -1,0 +1,18 @@
+@mixin content-creation($top, $right, $width, $heigh, $background) {
+    content: "";
+    position: absolute;
+    top: $top;
+    right: $right;
+    width: $width;
+    height: $heigh;
+    background: $background;
+}
+
+@mixin title-creation($color, $transform, $weight, $size, $margin-bottom, $spacing) {
+    color: $color;
+    text-transform: $transform;
+    font-weight: $weight;
+    font-size: $size;
+    margin-bottom: $margin-bottom;
+    letter-spacing: $spacing;
+}
